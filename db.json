@@ -1,1 +1,1985 @@
 
+{
+   "GetCaseList":{
+      "MethodParameters":{
+         "CaseListArray":[
+            {
+               "AssignTo":"System",
+               "AssignToSpl":"System",
+               "AssignType":"SYS",
+			   "ABANumber":"021000018",
+			   "Depository":"100000",
+			   "ReceiveDeliverCode":"D",
+			   "ObligationType":"U",
+			   "TransactionAmount":".01000000",
+               "CaseID":"258894",
+               "CaseIDs":"258894",
+               "CaseVersionNumber":"Receive/Deliver Entry by *RDEUPL on 01/17/20 (A)",
+               "CaseWorkFlowID":"107687",
+               "ClientNumber":{
+                  "_isNull":"false"
+               },
+               "ClosingPrice":"N/A",
+               "Column1":{
+                  "Name":"Date Received",
+                  "Value":"1/17/2020 7:45:00 AM"
+               },
+               "Column2":{
+                  "Name":"Submitter",
+                  "Value":"*RDEUPL"
+               },
+               "Column3":{
+                  "Name":"USD Market Value",
+                  "Value":"N/A"
+               },
+               "Column4":{
+                  "Name":"USD Amount",
+                  "Value":"N/A"
+               },
+               "Column5":{
+                  "Name":"Security",
+                  "Value":"A00348748"
+               },
+               "Column6":{
+                  "Name":"Role(LocationCode)",
+                  "Value":"N/A"
+               }, 
+               "Column7":{
+                  "Name":"Net Amount",
+                  "Value":"N/A"
+               },
+               "Column8":{
+                  "Name":"Batch Code",
+                  "Value":"N/A"
+               },
+               "Column9":{
+                  "Name":"Entry Code",
+                  "Value":"N/A"
+               },
+               "Column10":{
+                  "Name":"Price",
+                  "Value":""
+               },
+               "Column11":{
+                  "Name":"Quantity",
+                  "Value":"N/A"
+               },
+			   "Column12":{
+                  "Name":"Reference ID",
+                  "Value":"N/A"
+               },
+               "CreditDebitEntry":{
+                  "_isNull":"true"
+               },
+               "CreditDebitFlag":"False",
+               "CurrencySymbol":"U$",
+               "CurrentCount":"5",
+               "DetailHeader":"Receive/Deliver Entry by *RDEUPL on 01/17/20 (A)",
+               "DisabledActions":{
+                  "StringArray0":"APPR",
+                  "StringArray1":"REJT",
+                  "_attr0":"StringArray",
+                  "_isNull":"false"
+               },
+               "FinatStatusCD":"APPR",
+               "HasNextValue":"False",
+               "HasPreviousValue":"False",
+               "Header":"Receive/Deliver Entry",
+               "ISOCurrency":"USD",
+               "IsBillionJournal":{
+                  "_isNull":"false"
+               },
+               "IsNew":"False",
+               "IsNote":"True",
+               "Level":"1",
+               "LockedFlag":{
+                  "_isNull":"false"
+               },
+               "LockedUserID":{
+                  "_isNull":"false"
+               },
+               "LockedUserName":{
+                  "_isNull":"false"
+               },
+			   "CaseDetails": {
+				"ColumnList":	[
+					{
+						"ColumnName": "Client Number",
+						"ColumnValue": "CGMI"
+					},
+					{
+						"ColumnName": "Currency Symbol",
+						"ColumnValue": "U$"
+					},
+				    {
+						"ColumnName": "ISO Currency",
+						"ColumnValue": "USD"
+					},
+					{
+						"ColumnName": "Message Action",
+						"ColumnValue": "ADD"
+					},
+					{
+						"ColumnName": "Role(LocationCode)",
+						"ColumnValue": {
+							"_isNull": "false"
+						}
+					},
+					{
+						"ColumnName": "USD Market Value",
+						"ColumnValue": "N/A"
+					},
+					{
+						"ColumnName": "Closing Price",
+						"ColumnValue": "N/A"
+					},
+					{
+						"ColumnName": "Price Date",
+						"ColumnValue": "N/A"
+					},
+					{
+						"ColumnName": "Price Type",
+						"ColumnValue": "N/A"
+					},
+					{
+						"ColumnName": "Usd Amount",
+						"ColumnValue": "N/A"
+						
+					},
+					{
+						"ColumnName": "Submitter",
+						"ColumnValue": "*RDEUPL/VRDEUPL"
+						
+					}
+				]
+				},
+               "LogInfo":{
+                  "LogList":[
+                     {
+                        "CodeDescription":"Note Added",
+                        "CodeNo":"40004",
+                        "CodeValue":"SYS",
+                        "EntityID":"258894",
+                        "EventDate":"1/17/2020 7:44:54 AM",
+                        "Note":"Case is auto approved by SYSTEM",
+                        "UserID":"SYSTEM",
+                        "UserName":"SYSTEM"
+                     },
+                     {
+                        "CodeDescription":"Note Added",
+                        "CodeNo":"40004",
+                        "CodeValue":"SYS",
+                        "EntityID":"258894",
+                        "EventDate":"1/17/2020 7:44:54 AM",
+                        "Note":"Message received from source system SPSFI.IMPACT, user *RDEUPL/VRDEUPL",
+                        "UserID":"SYSTEM",
+                        "UserName":"SYSTEM"
+                     }
+                  ]
+               },
+			   "CaseTracking": {
+				"TrackingList": [
+					{
+						"ApprovedDate": "1/17/2020 7:44:54 AM",
+						"ApprovedUser": "SYSTEM",
+						"ApprovedUserName": {
+							"_isNull": "false"
+						},
+						"AssignDate": "1/17/2020 7:44:54 AM",
+						"AssignType": "SYS",
+						"AssignedOwner": "System",
+						"AssignedUserName": {
+							"_isNull": "false"
+						},
+						"ExpireDate": "1/17/2020 11:59:00 PM",
+						"FinalStatus": "APPR",
+						"Level": "1",
+						"Status": "APPR",
+						"SubStatus": "APPR",
+						"TotalApprCount": "1",
+						"TotalRequiredApprCount": "1"
+					}
+				]
+			},
+			"RelatedCase": {
+				"RelatedList": [
+					{
+						"CaseID": "248887",
+						"CreatedDate": "12/4/2019 7:08:45 AM",
+						"Header": "Receive/Deliver Entry -",
+						"MessageType": "RDE",
+						"Status": "APPR",
+						"SubClientID": "GMI"
+					},
+					{
+						"CaseID": "248887",
+						"CreatedDate": "12/4/2019 7:08:45 AM",
+						"Header": "Receive/Deliver Entry -",
+						"MessageType": "RDE",
+						"Status": "APPR",
+						"SubClientID": "GMI"
+					},
+					{
+						"CaseID": "248887",
+						"CreatedDate": "12/4/2019 7:08:45 AM",
+						"Header": "RDE -",
+						"MessageType": "RDE",
+						"Status": "APPR",
+						"SubClientID": "GMI"
+					},
+					{
+						"CaseID": "258892",
+						"CreatedDate": "1/16/2020 9:11:54 AM",
+						"Header": "Receive/Deliver Entry -",
+						"MessageType": "RDE",
+						"Status": "APPR",
+						"SubClientID": "GMI"
+					},
+					{
+						"CaseID": "258892",
+						"CreatedDate": "1/16/2020 9:11:54 AM",
+						"Header": "Receive/Deliver Entry -",
+						"MessageType": "RDE",
+						"Status": "APPR",
+						"SubClientID": "GMI"
+					},
+					{
+						"CaseID": "258892",
+						"CreatedDate": "1/16/2020 9:11:54 AM",
+						"Header": "RDE -",
+						"MessageType": "RDE",
+						"Status": "APPR",
+						"SubClientID": "GMI"
+					},
+					{
+						"CaseID": "258893",
+						"CreatedDate": "1/16/2020 9:27:21 AM",
+						"Header": "Receive/Deliver Entry -",
+						"MessageType": "RDE",
+						"Status": "APPR",
+						"SubClientID": "GMI"
+					},
+					{
+						"CaseID": "258893",
+						"CreatedDate": "1/16/2020 9:27:21 AM",
+						"Header": "Receive/Deliver Entry -",
+						"MessageType": "RDE",
+						"Status": "APPR",
+						"SubClientID": "GMI"
+					},
+					{
+						"CaseID": "258893",
+						"CreatedDate": "1/16/2020 9:27:21 AM",
+						"Header": "RDE -",
+						"MessageType": "RDE",
+						"Status": "APPR",
+						"SubClientID": "GMI"
+					}
+				]
+			},
+               "MessageIdentifier":"RDE",
+               "MessageName":"SPSFI.IMPACT",
+               "ModifiedBy":"SYSTEM",
+               "ModifiedByUserName":{
+                  "_isNull":"false"
+               },
+               "ModifiedDate":"1/17/2020 7:44:54 AM",
+               "MsgSubject":"Receive/Deliver Entry by *RDEUPL on 01/17/20 (A)",
+               "OriginatingCredential":"*RDEUPL",
+               "ParentCaseID":"258894",
+               "PriceDate":"N/A",
+               "PriceType":"N/A",
+               "PriorityCode":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeCSS":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeDescription":{
+                  "_isNull":"false"
+               },
+               "RefID":"20190128000000536",
+               "RelatedRefID":"00536CGMI",
+               "RawMessage":"<ApprovalWorkflowMsg><Header><From><ClientId>034</ClientId><EntityId>CGMI</EntityId><SourceId>SPSFI.IMPACT</SourceId><Key/></From><DtTm><SentDtTm>20200117124451</SentDtTm></DtTm></Header><Body><Message><MsgId>20190128000000536</MsgId><MsgSchema>RDE</MsgSchema><MsgName>RDE</MsgName><Operation>ADD</Operation><Subject>Receive/Deliver Entry by *RDEUPL on 01/17/20</Subject><Submitter><SubmitDtTm>20200117124451</SubmitDtTm><IdType>SSO</IdType><UserId>*RDEUPL</UserId><UserName/><UserEmail/></Submitter><Msg><Summary><Entity>CGMI</Entity><ReceiveDeliverNumber>0000000</ReceiveDeliverNumber><ReceiveDeliverDate>012819</ReceiveDeliverDate><FunctionCode>A</FunctionCode><CustomerAccount>09022007</CustomerAccount><ObligationType>U</ObligationType><SecurityName>9128284W7 UST NT 08/15/21</SecurityName><ReceiveDeliverCode>D</ReceiveDeliverCode><TransactionAmount>22.00000000</TransactionAmount><TotalMoney>.00</TotalMoney><Depository>100000</Depository><AbaNumber>011000028</AbaNumber><ReasonCode>A</ReasonCode><BankDeliveryInstruction1>STATE ST BOS/SPEC/SL01</BankDeliveryInstruction1><BankDeliveryInstruction2>bankDeliveryInstruction2Test</BankDeliveryInstruction2><BankDeliveryInstruction3>bankDeliveryInstruction3Test</BankDeliveryInstruction3><BankDeliveryInstruction4>bankDeliveryInstruction4Test</BankDeliveryInstruction4><BankDeliveryInstruction5>bankDeliveryInstruction5Test</BankDeliveryInstruction5><MoneyInBaseCurrency>.00</MoneyInBaseCurrency><MarketValue>22084622.21</MarketValue><GreaterDollarValue>22084622.21</GreaterDollarValue></Summary></Msg></Message></Body></ApprovalWorkflowMsg>",
+               "SourceApplication":"SPSFI.IMPACT",
+               "SourceTransactionID":"Receive/Deliver Entry by *RDEUPL on 01/17/20 (A)",
+               "Status":"APPR",
+               "SubClientID":"GMI",
+               "TotalApprCount":"1",
+               "TotalAssignedCount":"1",
+               "TotalCount":"5",
+               "TotalPages":"1",
+               "TotalRequiredApprCount":"1",
+               "UsdAmount":"N/A",
+               "UsdMarketValue":"N/A",
+               "UserName":"System",
+               "Version":"1"
+            },
+            {
+               "AssignTo":"System",
+               "AssignToSpl":"System",
+               "AssignType":"SYS",
+               "CaseID":"248886",
+               "CaseIDs":"248886",
+               "CaseVersionNumber":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "CaseWorkFlowID":"107683",
+               "ClientNumber":{
+                  "_isNull":"false"
+               },
+               "ClosingPrice":"N/A",
+               "Column1":{
+                  "Name":"Quantity",
+                  "Value":"0.00"
+               },
+               "Column2":{
+                  "Name":"Submitter",
+                  "Value":"IP99323 Ingrid"
+               },
+               "Column3":{
+                  "Name":"Transaction Type",
+                  "Value":"BKJ"
+               },
+               "Column4":{
+                  "Name":"Type",
+                  "Value":"2"
+               },
+               "Column5":{
+                  "Name":"USD Amount",
+                  "Value":"1,700.00"
+               },
+               "Column6":{
+                  "Name":"Role(LocationCode)",
+                  "Value":"GRN"
+               },
+			   "Column7":{
+                  "Name":"Net Amount",
+                  "Value":"N/A"
+               },
+               "Column8":{
+                  "Name":"Batch Code",
+                  "Value":"N/A"
+               },
+               "Column9":{
+                  "Name":"Entry Code",
+                  "Value":"N/A"
+               },
+               "Column10":{
+                  "Name":"Price",
+                  "Value":""
+               },
+               "Column11":{
+                  "Name":"Quantity",
+                  "Value":"N/A"
+               },
+			   "Column12":{
+                  "Name":"Reference ID",
+                  "Value":"N/A"
+               },
+               "CreditDebitEntry":{
+                  "_isNull":"true"
+               },
+               "CreditDebitFlag":"False",
+               "CurrencySymbol":"U$",
+               "CurrentCount":"5",
+               "DetailHeader":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "DisabledActions":{
+                  "StringArray0":"APPR",
+                  "StringArray1":"REJT",
+                  "_attr0":"StringArray",
+                  "_isNull":"false"
+               },
+               "FinatStatusCD":"APPR",
+               "HasNextValue":"False",
+               "HasPreviousValue":"False",
+               "Header":"Ascendis SRFB Journal 522-9K286",
+               "ISOCurrency":"USD",
+               "IsBillionJournal":{
+                  "_isNull":"false"
+               },
+               "IsNew":"False",
+               "IsNote":"True",
+               "Level":"1",
+               "LockedFlag":{
+                  "_isNull":"false"
+               },
+               "LockedUserID":{
+                  "_isNull":"false"
+               },
+               "LockedUserName":{
+                  "_isNull":"false"
+               },
+               "LogInfo":{
+                  "LogList":[
+                     {
+                        "CodeDescription":"Note Added",
+                        "CodeNo":"40004",
+                        "CodeValue":"SYS",
+                        "EntityID":"248886",
+                        "EventDate":"12/4/2019 6:57:57 AM",
+                        "Note":"Case is auto approved by SYSTEM",
+                        "UserID":"SYSTEM",
+                        "UserName":"SYSTEM"
+                     },
+                     {
+                        "CodeDescription":"Note Added",
+                        "CodeNo":"40004",
+                        "CodeValue":"SYS",
+                        "EntityID":"248886",
+                        "EventDate":"12/4/2019 6:57:57 AM",
+                        "Note":"Message received from source system ASCSFB, user IP99323 Ingrid Pitt (V034QA14)",
+                        "UserID":"SYSTEM",
+                        "UserName":"SYSTEM"
+                     }
+                  ]
+               },
+			     "CaseTracking": {
+				"TrackingList": [
+					{
+						"ApprovedDate": "12/4/2019 6:57:57 AM",
+						"ApprovedUser": "SYSTEM",
+						"ApprovedUserName": {
+							"_isNull": "false"
+						},
+						"AssignDate": "12/4/2019 6:57:57 AM",
+						"AssignType": "SYS",
+						"AssignedOwner": "System",
+						"AssignedUserName": {
+							"_isNull": "false"
+						},
+						"ExpireDate": {
+							"_isNull": "false"
+						},
+						"FinalStatus": "APPR",
+						"Level": "1",
+						"Status": "APPR",
+						"SubStatus": "APPR",
+						"TotalApprCount": "1",
+						"TotalRequiredApprCount": "1"
+					}
+				]
+			},
+			"RelatedCase": {
+				"RelatedList": [
+					]
+			},
+               "MessageIdentifier":"MSRFBJRN",
+               "MessageName":"ASCSFB",
+               "ModifiedBy":"SYSTEM",
+               "ModifiedByUserName":{
+                  "_isNull":"false"
+               },
+               "ModifiedDate":"12/4/2019 6:57:57 AM",
+               "MsgSubject":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "OriginatingCredential":"V034QA14",
+               "ParentCaseID":"248886",
+               "PriceDate":"N/A",
+               "PriceType":"N/A",
+               "PriorityCode":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeCSS":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeDescription":{
+                  "_isNull":"false"
+               },
+               "RefID":"ASCSFB101445",
+               "RelatedRefID":{
+                  "_isNull":"false"
+               },
+               "RawMessage":"<ApprovalWorkflowMsg><Header><From><ClientId>034</ClientId><SourceId>ASCSFB</SourceId></From><DtTm><SentDtTm>20191204115754</SentDtTm></DtTm></Header><Body><Message><MsgId>ASCSFB101445</MsgId><MsgSchema>MSRFBJRN</MsgSchema><MsgName>MSRFBJRN</MsgName><Operation>ADD</Operation><Submitter><SubmitDtTm>20191204115754</SubmitDtTm><IdType/><UserId>V034QA14</UserId><UserName/><UserEmail/></Submitter><Msg><Summary><CorrelationID>101445</CorrelationID><ClientNo>034</ClientNo><Branch>522</Branch><Account>9K286</Account><Type>2</Type><CheckDigit>1</CheckDigit><TransactionCategory>B</TransactionCategory><TransactionType>BKJ</TransactionType><BuySellCode>C</BuySellCode><Quantity>0.00000</Quantity><BatchCode>FB</BatchCode><EntryCode>ADJ</EntryCode><Currency>USD</Currency><SecurityIdentifierCode>C</SecurityIdentifierCode><SecurityId/><UniqueTransactionno>101445</UniqueTransactionno><NetAmountIdCode>NET</NetAmountIdCode><NetAmount>1700.00</NetAmount><NumOfDescrSubSegments>2</NumOfDescrSubSegments><DescriptionLine1>AWS UPGRAD TEST FOR ASC 120319</DescriptionLine1><DescriptionLine2>ASC_SFB_JOURNAL 101445</DescriptionLine2><UserID>V034QA14</UserID><CUSIP/><Operation>ADD</Operation><Links><LinkRefID/><LinkType>Group</LinkType><Comments/></Links></Summary></Msg></Message></Body></ApprovalWorkflowMsg>",
+               "SourceApplication":"ASCSFB",
+               "SourceTransactionID":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "Status":"OPEN",
+               "SubClientID":"034",
+               "TotalApprCount":"1",
+               "TotalAssignedCount":"1",
+               "TotalCount":"5",
+               "TotalPages":"1",
+               "TotalRequiredApprCount":"1",
+               "UsdAmount":"1700.00",
+               "UsdMarketValue":"N/A",
+               "UserName":"System",
+               "Version":"1"
+            },
+            {
+               "AssignTo":"System",
+               "AssignToSpl":"System",
+               "AssignType":"SYS",
+               "CaseID":"258893",
+               "CaseIDs":"258893",
+               "CaseVersionNumber":"Cage Free Delivery CR 098-20100(A)",
+               "CaseWorkFlowID":"107683",
+               "ClientNumber":{
+                  "_isNull":"false"
+               },
+               "ClosingPrice":"N/A",
+               "Column1":{
+                  "Name":"Account",
+                  "Value":"098-20100"
+               },
+               "Column2":{
+                  "Name":"Date Recieved",
+                  "Value":"1/29/2020 4:15:00 PM"
+               },
+               "Column3":{
+                  "Name":"Security",
+                  "Value":"H574621"
+               },
+               "Column4":{
+                  "Name":"Creadit Account",
+                  "Value":"0982010019"
+               },
+               "Column5":{
+                  "Name":"USD Amount",
+                  "Value":"301.00"
+               },
+               "Column6":{
+                  "Name":"Submitter",
+                  "Value":"Level 2"
+               },
+			   "Column7":{
+                  "Name":"Net Amount",
+                  "Value":"N/A"
+               },
+               "Column8":{
+                  "Name":"Batch Code",
+                  "Value":"BDC"
+               },
+               "Column9":{
+                  "Name":"Entry Code",
+                  "Value":"DEL"
+               },
+               "Column10":{
+                  "Name":"Price",
+                  "Value":"150.70"
+               },
+               "Column11":{
+                  "Name":"Quantity",
+                  "Value":"N/A"
+               },
+			   "Column12":{
+                  "Name":"Reference ID",
+                  "Value":"YRTM 616616601"
+               },
+               "CreditDebitEntry":{
+                  "_isNull":"true"
+               },
+               "CreditDebitFlag":"False",
+               "CurrencySymbol":"U$",
+               "CurrentCount":"5",
+               "DetailHeader":"Cage Free Delivery CR 098-20100(A)",
+               "DisabledActions":{
+                  "StringArray0":"APPR",
+                  "StringArray1":"REJT",
+                  "_attr0":"StringArray",
+                  "_isNull":"false"
+               },
+               "FinatStatusCD":"APPR",
+               "HasNextValue":"False",
+               "HasPreviousValue":"False",
+               "Header":"Cage Free Delivery CR 098-20100(A)",
+               "ISOCurrency":"USD",
+               "IsBillionJournal":{
+                  "_isNull":"false"
+               },
+               "IsNew":"False",
+               "IsNote":"True",
+               "Level":"1",
+               "LockedFlag":{
+                  "_isNull":"false"
+               },
+               "LockedUserID":{
+                  "_isNull":"false"
+               },
+               "LockedUserName":{
+                  "_isNull":"false"
+               },
+               "LogInfo":{
+                  "LogList":[
+                     {
+                        "CodeDescription":"Note Added",
+                        "CodeNo":"40004",
+                        "CodeValue":"SYS",
+                        "EntityID":"258893",
+                        "EventDate":"1/16/2020 9:27:22 AM",
+                        "Note":"Case is auto approved by SYSTEM",
+                        "UserID":"SYSTEM",
+                        "UserName":"SYSTEM"
+                     },
+                     {
+                        "CodeDescription":"Note Added",
+                        "CodeNo":"40004",
+                        "CodeValue":"SYS",
+                        "EntityID":"258893",
+                        "EventDate":"1/16/2020 9:27:21 AM",
+                        "Note":"Message received from source system CAGE, user Level 2 (V045KK13/V045LEV2)",
+                        "UserID":"SYSTEM",
+                        "UserName":"SYSTEM"
+                     }
+                  ]
+               },
+               "MessageIdentifier":"MSRFBJRN",
+               "MessageName":"ASCSFB",
+               "ModifiedBy":"SYSTEM",
+               "ModifiedByUserName":{
+                  "_isNull":"false"
+               },
+               "ModifiedDate":"12/4/2019 6:57:57 AM",
+               "MsgSubject":"Cage Free Delivery CR 098-20100(A)",
+               "OriginatingCredential":"V034QA14",
+               "ParentCaseID":"248887",
+               "PriceDate":"N/A",
+               "PriceType":"N/A",
+               "PriorityCode":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeCSS":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeDescription":{
+                  "_isNull":"false"
+               },
+               "RefID":"ASCSFB101445",
+               "RelatedRefID":{
+                  "_isNull":"false"
+               },
+               "RawMessage":"045USDTODAY DTC KCBDC ENTERTDAY 50001COPEN 0000000000000.00 00000001 V045KK132020-02-19 0000000711 000 000000000000.00000 00000 00000 0 BOOKKEEPING USDUSD 2020-02-19 2020-02-19 V045KK13AVCBKP012 0982010019 00001 000000000002.000000000000000000.00 2020-02-19 00352 04 DEL H574621 BD00006200000 00000 2020-02-19 2020-02-19 V045KK13AVCBKP012Y",
+               "SourceApplication":"CAGE",
+               "SourceTransactionID":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "Status":"OPEN",
+               "SubClientID":"034",
+               "TotalApprCount":"1",
+               "TotalAssignedCount":"1",
+               "TotalCount":"5",
+               "TotalPages":"1",
+               "TotalRequiredApprCount":"1",
+               "UsdAmount":"310.00",
+               "UsdMarketValue":"N/A",
+               "UserName":"System",
+               "Version":"1"
+            },
+            {
+               "AssignTo": "AWS_SYSTEMGROUP",
+               "AssignToSpl": "AWS_SYSTEMGROUP",
+               "AssignType": "GRP",
+               "CaseID": "49553",
+               "CaseIDs": "49553",
+               "CaseVersionNumber": "OPEN ITEM RESOLUTION by U225BMI on 12/04/19",
+               "CaseWorkFlowID": "30082",
+               "ClientNumber": {
+                  "_isNull": "false"
+               },
+               "ClosingPrice": "N/A",
+               "Column1":{
+                  "Name":"Closing Price",
+                  "Value":"N/A"
+               },
+               "Column2":{
+                  "Name":"Currency",
+                  "Value":"USD"
+               },
+               "Column3":{
+                  "Name":"External Id",
+                  "Value":"N/A"
+               },
+               "Column4":{
+                  "Name":"Batch Code",
+                  "Value":"BKJ"
+               },
+               "Column5":{
+                  "Name":"Counterparty Name",
+                  "Value":"N/A"
+               },
+               "Column6":{
+                  "Name":"Currency Symbol",
+                  "Value":"N/A"
+               },
+			   "Column7":{
+                  "Name":"Function Code",
+                  "Value":"N/A"
+               },
+               "Column8":{
+                  "Name":"Security",
+                  "Value":"N/A"
+               },
+               "Column9":{
+                  "Name":"Depository",
+                  "Value":"N/A"
+               },
+               "Column10":{
+                  "Name":"Upload Number",
+                  "Value":""
+               },
+               "Column11":{
+                  "Name":"USD Amount",
+                  "Value":"N/A"
+               },
+			   "Column12":{
+                  "Name":"MessageName",
+                  "Value":"SPSFI.IMPACT"
+               },
+               "CreditDebitEntry": "off",
+               "CreditDebitFlag": "False",
+               "CurrencySymbol": {
+                  "_isNull": "false"
+               },
+               "CurrentCount": "2",
+               "DetailHeader": "OPEN ITEM RESOLUTION by U225BMI on 12/04/19",
+               "DisabledActions": {
+                  "StringArray0": "APPR",
+                  "StringArray1": "REJT",
+                  "_attr0": "StringArray",
+                  "_isNull": "false"
+               },
+               "FinatStatusCD": {
+                  "_isNull": "false"
+               },
+               "HasNextValue": "False",
+               "HasPreviousValue": "False",
+               "Header": "Open Item Resolution",
+               "ISOCurrency": {
+                  "_isNull": "false"
+               },
+               "IsBillionJournal": {
+                  "_isNull": "false"
+               },
+               "IsNew": "False",
+               "IsNote": "True",
+               "Level": "1",
+               "LockedFlag": {
+                  "_isNull": "false"
+               },
+               "LockedUserID": {
+                  "_isNull": "false"
+               },
+               "LockedUserName": {
+                  "_isNull": "false"
+               },
+               "LogInfo":{
+                  "LogList":[
+                     {
+                        "CodeDescription":"Note Added",
+                        "CodeNo":"40004",
+                        "CodeValue":"SYS",
+                        "EntityID":"258892",
+                        "EventDate":"1/16/2020 9:11:54 AM",
+                        "Note":"Case is auto approved by SYSTEM",
+                        "UserID":"SYSTEM",
+                        "UserName":"SYSTEM"
+                     },
+                     {
+                        "CodeDescription":"Note Added",
+                        "CodeNo":"40004",
+                        "CodeValue":"SYS",
+                        "EntityID":"258892",
+                        "EventDate":"1/16/2020 9:11:54 AM",
+                        "Note":"Message received from source system SPSFI.IMPACT, user *RDEUPL/VRDEUPL",
+                        "UserID":"SYSTEM",
+                        "UserName":"SYSTEM"
+                     }
+                  ]
+               },
+			    "CaseTracking": {
+				"TrackingList": [
+					{
+						"ApprovedDate": {
+                     "_isNull": "false"
+                  },
+                  "ApprovedUser": {
+                     "_isNull": "false"
+                  },
+                  "ApprovedUserName": {
+                     "_isNull": "false"
+                  },
+                  "AssignDate": "12/4/2019 7:16:22 AM",
+                  "AssignType": "GRP",
+                  "AssignedOwner": "AWS_SYSTEMGROUP",
+                  "AssignedUserName": "AWS_SYSTEMGROUP",
+                  "ExpireDate": "12/4/2019 8:00:00 PM",
+                  "FinalStatus": {
+                     "_isNull": "false"
+                  },
+                  "Level": "1",
+                  "Status": "OPEN",
+                  "SubStatus": "OPEN",
+                  "TotalApprCount": "0",
+                  "TotalRequiredApprCount": "1"
+					}
+				]
+			},
+               "MessageIdentifier":"MSRFBJRN",
+               "MessageName":"ASCSFB",
+               "ModifiedBy":"SYSTEM",
+               "ModifiedByUserName":{
+                  "_isNull":"false"
+               },
+               "ModifiedDate":"12/4/2019 6:57:57 AM",
+               "MsgSubject":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "OriginatingCredential":"V034QA14",
+               "ParentCaseID":"258888",
+               "PriceDate":"N/A",
+               "PriceType":"N/A",
+               "PriorityCode":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeCSS":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeDescription":{
+                  "_isNull":"false"
+               },
+               "RefID":"ASCSFB101445",
+               "RelatedRefID":{
+                  "_isNull":"false"
+               },
+               "RawMessage":"<ApprovalWorkflowMsg><Header><From><ClientId>225</ClientId><EntityId>CBNA</EntityId><SourceId>SPSFI.IMPACT</SourceId><Key/></From><DtTm><SentDtTm>20191204121621</SentDtTm></DtTm></Header><Body><Message><MsgId>20191203000002694</MsgId><MsgSchema>OIR</MsgSchema><MsgName>OIR</MsgName><Operation>DLT</Operation><Subject>OPEN ITEM RESOLUTION by U225BMI on 12/04/19</Subject><Submitter><SubmitDtTm>20191204121621</SubmitDtTm><IdType>SSO</IdType><UserId>U225BMI</UserId><UserName/><UserEmail/></Submitter><Msg><Summary><Entity/><CurrentDate/><UploadNumber/><User/><FunctionCode/><ResolutionDate/><ResolutionNumber/><CounterpartyName/><CounterpartyType/><ResolutionType/><ResolutionMoney/><AutoVerify/><PaymentMode/><Description/><Depository/><Currency/><StatusMessage/><ExternalId/><ResolutionRule/><MoneyInBaseCurrency/></Summary><Detail><OpenItemNumber/><OpenItemDate/><OpenItemAdjustment/></Detail></Msg></Message></Body></ApprovalWorkflowMsg>",
+               "SourceApplication":"ASCSFB",
+               "SourceTransactionID":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "Status":"OPEN",
+               "SubClientID":"034",
+               "TotalApprCount":"1",
+               "TotalAssignedCount":"1",
+               "TotalCount":"5",
+               "TotalPages":"1",
+               "TotalRequiredApprCount":"1",
+               "UsdAmount":"1700.00",
+               "UsdMarketValue":"N/A",
+               "UserName":"System",
+               "Version":"1"
+            },
+            {
+               "AssignTo":"System",
+               "AssignToSpl":"System",
+               "AssignType":"SYS",
+               "CaseID":"248787",
+               "CaseIDs":"247887",
+               "CaseVersionNumber":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "CaseWorkFlowID":"107683",
+               "ClientNumber":{
+                  "_isNull":"false"
+               },
+               "ClosingPrice":"N/A",
+               "Column1":{
+                  "Name":"Quantity",
+                  "Value":"0.00"
+               },
+               "Column2":{
+                  "Name":"Submitter",
+                  "Value":"IP99323"
+               },
+               "Column3":{
+                  "Name":"Transaction Type",
+                  "Value":"BKJ"
+               },
+               "Column4":{
+                  "Name":"Type",
+                  "Value":"2"
+               },
+               "Column5":{
+                  "Name":"USD Amount",
+                  "Value":"1,700.00"
+               },
+               "Column6":{
+                  "Name":"Role(LocationCode)",
+                  "Value":"GRN"
+               },
+			   "Column7":{
+                  "Name":"Net Amount",
+                  "Value":"N/A"
+               },
+               "Column8":{
+                  "Name":"Batch Code",
+                  "Value":"N/A"
+               },
+               "Column9":{
+                  "Name":"Entry Code",
+                  "Value":"N/A"
+               },
+               "Column10":{
+                  "Name":"Price",
+                  "Value":""
+               },
+               "Column11":{
+                  "Name":"Quantity",
+                  "Value":"N/A"
+               },
+			   "Column12":{
+                  "Name":"Reference ID",
+                  "Value":"N/A"
+               },
+               "CreditDebitEntry":{
+                  "_isNull":"true"
+               },
+               "CreditDebitFlag":"False",
+               "CurrencySymbol":"U$",
+               "CurrentCount":"5",
+               "DetailHeader":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "DisabledActions":{
+                  "StringArray0":"APPR",
+                  "StringArray1":"REJT",
+                  "_attr0":"StringArray",
+                  "_isNull":"false"
+               },
+               "FinatStatusCD":"APPR",
+               "HasNextValue":"False",
+               "HasPreviousValue":"False",
+               "Header":"Ascendis SRFB Journal 522-9K286",
+               "ISOCurrency":"USD",
+               "IsBillionJournal":{
+                  "_isNull":"false"
+               },
+               "IsNew":"False",
+               "IsNote":"True",
+               "Level":"1",
+               "LockedFlag":{
+                  "_isNull":"false"
+               },
+               "LockedUserID":{
+                  "_isNull":"false"
+               },
+               "LockedUserName":{
+                  "_isNull":"false"
+               },
+               "LogInfo":{
+                  "LogList":{
+                     "_attr0":"LogArray",
+                     "_isNull":"false"
+                  }
+               },
+               "MessageIdentifier":"MSRFBJRN",
+               "MessageName":"ASCSFB",
+               "ModifiedBy":"SYSTEM",
+               "ModifiedByUserName":{
+                  "_isNull":"false"
+               },
+               "ModifiedDate":"12/4/2019 6:57:57 AM",
+               "MsgSubject":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "OriginatingCredential":"V034QA14",
+               "ParentCaseID":"248787",
+               "PriceDate":"N/A",
+               "PriceType":"N/A",
+               "PriorityCode":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeCSS":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeDescription":{
+                  "_isNull":"false"
+               },
+               "RefID":"ASCSFB101445",
+               "RelatedRefID":{
+                  "_isNull":"false"
+               },
+               "RawMessage":"",
+               "SourceApplication":"ASCSFB",
+               "SourceTransactionID":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "Status":"APPR",
+               "SubClientID":"034",
+               "TotalApprCount":"1",
+               "TotalAssignedCount":"1",
+               "TotalCount":"5",
+               "TotalPages":"1",
+               "TotalRequiredApprCount":"1",
+               "UsdAmount":"1700.00",
+               "UsdMarketValue":"N/A",
+               "UserName":"System",
+               "Version":"1"
+            },
+            {
+              "AssignTo": "System",
+               "AssignToSpl": "System",
+               "AssignType": "SYS",
+               "CaseID": "72840",
+               "CaseIDs": "72840",
+               "CaseVersionNumber": {
+                  "_isNull": "false"
+               },
+               "CaseWorkFlowID": "10169",
+               "ClientNumber": "0027",
+               "ClosingPrice": "N/A",
+               "Column1":{
+                  "Name":"Quantity",
+                  "Value":"0.00"
+               },
+               "Column2":{
+                  "Name":"Submitter",
+                  "Value":"Ingrid Pitt"
+               },
+               "Column3":{
+                  "Name":"Transaction Type",
+                  "Value":"BKJ"
+               },
+               "Column4":{
+                  "Name":"Type",
+                  "Value":"2"
+               },
+               "Column5":{
+                  "Name":"USD Amount",
+                  "Value":"1,700.00"
+               },
+               "Column6":{
+                  "Name":"Role(LocationCode)",
+                  "Value":"GRN"
+               },
+			   "Column7":{
+                  "Name":"Net Amount",
+                  "Value":"N/A"
+               },
+               "Column8":{
+                  "Name":"Batch Code",
+                  "Value":"N/A"
+               },
+               "Column9":{
+                  "Name":"Entry Code",
+                  "Value":"N/A"
+               },
+               "Column10":{
+                  "Name":"Price",
+                  "Value":""
+               },
+               "Column11":{
+                  "Name":"Quantity",
+                  "Value":"N/A"
+               },
+			   "Column12":{
+                  "Name":"Reference ID",
+                  "Value":"N/A"
+               },
+               "CreditDebitEntry":{
+                  "_isNull":"true"
+               },
+               "CreditDebitEntry": "off",
+               "CreditDebitFlag": "False",
+               "CurrencySymbol": "U$",
+               "CurrentCount": "2",
+               "DetailHeader": "P&S Trade 990-91999",
+               "DisabledActions": {
+                  "StringArray0": "APPR",
+                  "StringArray1": "REJT",
+                  "_attr0": "StringArray",
+                  "_isNull": "false"
+               },
+               "FinatStatusCD": "EXPI",
+               "HasNextValue": "False",
+               "HasPreviousValue": "False",
+               "Header": "P&S Trade 990-91999",
+               "ISOCurrency": "USD",
+               "IsBillionJournal": {
+                  "_isNull": "false"
+               },
+               "IsNew": "False",
+               "IsNote": "True",
+               "Level": "1",
+               "LockedFlag": {
+                  "_isNull": "false"
+               },
+               "LockedUserID": {
+                  "_isNull": "false"
+               },
+               "LockedUserName": {
+                  "_isNull": "false"
+               },
+			   "LogInfo":{
+                  "LogList":{
+                     "_attr0":"LogArray",
+                     "_isNull":"false"
+                  }
+               },
+               "MessageIdentifier": "MPNSMSG",
+               "MessageName": "BPSTACT",
+               "ModifiedBy": {
+                  "_isNull": "false"
+               },
+               "ModifiedByUserName": {
+                  "_isNull": "false"
+               },
+               "ModifiedDate": "9/11/2019 1:23:58 PM",
+               "MsgSubject": "P&S Trade 990-91999",
+               "OriginatingCredential": "TCRASOL",
+               "ParentCaseID": "72840",
+               "PriceDate": "N/A",
+               "PriceType": "N/A",
+               "PriorityCode": {
+                  "_isNull": "false"
+               },
+               "PriorityCodeCSS": {
+                  "_isNull": "false"
+               },
+               "PriorityCodeDescription": {
+                  "_isNull": "false"
+               },
+               "RefID": "201905280027BT001PS00022635 148",
+               "RelatedRefID": "BT001PS00022635 0027",
+               "RawMessage":"",
+              "SourceApplication": "NEWB",
+               "SourceTransactionID": {
+                  "_isNull": "false"
+               },
+               "Status": "EXPI",
+               "SubClientID": "027",
+               "TotalApprCount": "0",
+               "TotalAssignedCount": "1",
+               "TotalCount": "2",
+               "TotalPages": "1",
+               "TotalRequiredApprCount": "1",
+               "UsdAmount": "2000.00",
+               "UsdMarketValue": "N/A",
+               "UserName": "System",
+               "Version":"1"
+            },
+            {
+               "AssignTo": "System",
+               "AssignToSpl": "System",
+               "AssignType": "SYS",
+               "CaseID": "72850",
+               "CaseIDs": "72850",
+               "CaseVersionNumber": {
+                  "_isNull": "false"
+               },
+               "CaseWorkFlowID": "10170",
+               "ClientNumber": "0027",
+               "ClosingPrice": "N/A",
+               "Column1":{
+                  "Name":"Account",
+                  "Value":"02004"
+               },
+               "Column2":{
+                  "Name":"Date Received",
+                  "Value":"6/26/2019 9:54:00 AM"
+               },
+               "Column3":{
+                  "Name":"Net Amnt.",
+                  "Value":"0"
+               },
+               "Column4":{
+                  "Name":"Security",
+                  "Value":"5BMCXG8"
+               },
+               "Column5":{
+                  "Name":"Expiration Date",
+                  "Value":"Expiration Date"
+               },
+               "Column6":{
+                  "Name":"Price",
+                  "Value":"10.00"
+               },
+			   "Column7":{
+                  "Name":"Net Amount",
+                  "Value":"N/A"
+               },
+               "Column8":{
+                  "Name":"Batch Code",
+                  "Value":"N/A"
+               },
+               "Column9":{
+                  "Name":"Entry Code",
+                  "Value":"N/A"
+               },
+               "Column10":{
+                  "Name":{
+                        "_isNull": "true"
+                     },
+                  "Value":{
+                        "_isNull": "true"
+                     }
+               },
+               "Column11":{
+                  "Name":{
+                        "_isNull": "true"
+                     },
+                  "Value":{
+                        "_isNull": "true"
+                     }
+               },
+			   "Column12":{
+                  "Name":{
+                        "_isNull": "true"
+                     },
+                  "Value":{
+                        "_isNull": "true"
+                     }
+               },
+               "CreditDebitEntry": "off",
+               "CreditDebitFlag": "False",
+               "CurrencySymbol": {
+                  "_isNull": "false"
+               },
+               "CurrentCount": "2",
+               "DetailHeader": "P&S Trade 981-02004",
+               "DisabledActions": {
+                  "StringArray0": "APPR",
+                  "StringArray1": "REJT",
+                  "_attr0": "StringArray",
+                  "_isNull": "false"
+               },
+               "FinatStatusCD": "EXPI",
+               "HasNextValue": "False",
+               "HasPreviousValue": "False",
+               "Header": "P&S Trade 981-02004",
+               "ISOCurrency": {
+                  "_isNull": "false"
+               },
+               "IsBillionJournal": {
+                  "_isNull": "false"
+               },
+               "IsNew": "False",
+               "IsNote": "True",
+               "Level": "1",
+               "LockedFlag": {
+                  "_isNull": "false"
+               },
+               "LockedUserID": {
+                  "_isNull": "false"
+               },
+               "LockedUserName": {
+                  "_isNull": "false"
+               },
+			   "LogInfo":{
+                  "LogList":{
+                     "_attr0":"LogArray",
+                     "_isNull":"false"
+                  }
+               },
+               "MessageIdentifier": "MPNSMSG",
+               "MessageName": "BPSTACT",
+               "ModifiedBy": {
+                  "_isNull": "false"
+               },
+               "ModifiedByUserName": {
+                  "_isNull": "false"
+               },
+               "ModifiedDate": "9/11/2019 1:23:58 PM",
+               "MsgSubject": "P&S Trade 981-02004",
+               "OriginatingCredential": "TCTAKON",
+               "ParentCaseID": "72850",
+               "PriceDate": "N/A",
+               "PriceType": "N/A",
+               "PriorityCode": {
+                  "_isNull": "false"
+               },
+               "PriorityCodeCSS": {
+                  "_isNull": "false"
+               },
+               "PriorityCodeDescription": {
+                  "_isNull": "false"
+               },
+               "RefID": "201906260027BT001PS00010004 177",
+               "RelatedRefID": "BT001PS00010004 0027",
+               "RawMessage":"",
+               "SourceApplication": "NEWB",
+               "SourceTransactionID": {
+                  "_isNull": "false"
+               },
+               "Status": "EXPI",
+               "SubClientID": "027",
+               "TotalApprCount": "0",
+               "TotalAssignedCount": "1",
+               "TotalCount": "2",
+               "TotalPages": "1",
+               "TotalRequiredApprCount": "1",
+               "UsdAmount": "N/A",
+               "UsdMarketValue": "N/A",
+               "UserName": "System",
+               "Version":"1"
+            },
+            {
+               "AssignTo":"V096UNI9",
+               "AssignToSpl":"System",
+               "AssignType":"SYS",
+               "CaseID":"250004",
+               "CaseIDs":"248887",
+               "CaseVersionNumber":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "CaseWorkFlowID":"107683",
+               "ClientNumber":{
+                  "_isNull":"false"
+               },
+               "ClosingPrice":"N/A",
+               "Column1":{
+                  "Name":"Quantity",
+                  "Value":"0.00"
+               },
+               "Column2":{
+                  "Name":"Submitter",
+                  "Value":"(V034QA14)"
+               },
+               "Column3":{
+                  "Name":"Transaction Type",
+                  "Value":"BKJ"
+               },
+               "Column4":{
+                  "Name":"Type",
+                  "Value":"2"
+               },
+               "Column5":{
+                  "Name":"USD Amount",
+                  "Value":"1,700.00"
+               },
+               "Column6":{
+                  "Name":"Role(LocationCode)",
+                  "Value":"GRN"
+               },
+			   "Column7":{
+                  "Name":"Net Amount",
+                  "Value":"N/A"
+               },
+               "Column8":{
+                  "Name":"Batch Code",
+                  "Value":"N/A"
+               },
+               "Column9":{
+                  "Name":"Entry Code",
+                  "Value":"N/A"
+               },
+               "Column10":{
+                  "Name":"Price",
+                  "Value":""
+               },
+               "Column11":{
+                  "Name":"Quantity",
+                  "Value":"N/A"
+               },
+			   "Column12":{
+                  "Name":"Reference ID",
+                  "Value":"N/A"
+               },
+               "CreditDebitEntry":{
+                  "_isNull":"true"
+               },
+               "CreditDebitFlag":"False",
+               "CurrencySymbol":"U$",
+               "CurrentCount":"5",
+               "DetailHeader":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "DisabledActions":{
+                  "StringArray0":"APPR",
+                  "StringArray1":"REJT",
+                  "_attr0":"StringArray",
+                  "_isNull":"false"
+               },
+               "FinatStatusCD":"APPR",
+               "HasNextValue":"False",
+               "HasPreviousValue":"False",
+               "Header":"Ascendis SRFB Journal 522-9K286",
+               "ISOCurrency":"USD",
+               "IsBillionJournal":{
+                  "_isNull":"false"
+               },
+               "IsNew":"False",
+               "IsNote":"True",
+               "Level":"1",
+               "LockedFlag":{
+                  "_isNull":"false"
+               },
+               "LockedUserID":{
+                  "_isNull":"false"
+               },
+               "LockedUserName":{
+                  "_isNull":"false"
+               },
+			   "LogInfo":{
+                  "LogList":{
+                     "_attr0":"LogArray",
+                     "_isNull":"false"
+                  }
+               },
+               "MessageIdentifier":"MSRFBJRN",
+               "MessageName":"ASCSFB",
+               "ModifiedBy":"SYSTEM",
+               "ModifiedByUserName":{
+                  "_isNull":"false"
+               },
+               "ModifiedDate":"12/4/2019 6:57:57 AM",
+               "MsgSubject":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "OriginatingCredential":"V034QA14",
+               "ParentCaseID":"248887",
+               "PriceDate":"N/A",
+               "PriceType":"N/A",
+               "PriorityCode":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeCSS":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeDescription":{
+                  "_isNull":"false"
+               },
+               "RefID":"ASCSFB101445",
+               "RelatedRefID":{
+                  "_isNull":"false"
+               },
+               "RawMessage":"",
+               "SourceApplication":"ASCSFB",
+               "SourceTransactionID":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "Status":"REJT",
+               "SubClientID":"034",
+               "TotalApprCount":"1",
+               "TotalAssignedCount":"1",
+               "TotalCount":"5",
+               "TotalPages":"1",
+               "TotalRequiredApprCount":"1",
+               "UsdAmount":"1700.00",
+               "UsdMarketValue":"N/A",
+               "UserName":"System",
+               "Version":"1"
+            },
+            {
+               "AssignTo":"V096UNI9",
+               "AssignToSpl":"System",
+               "AssignType":"SYS",
+               "CaseID":"250003",
+               "CaseIDs":"248887",
+               "CaseVersionNumber":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "CaseWorkFlowID":"107683",
+               "ClientNumber":{
+                  "_isNull":"false"
+               },
+               "ClosingPrice":"N/A",
+               "Column1":{
+                  "Name":"Quantity",
+                  "Value":"0.00"
+               },
+               "Column2":{
+                  "Name":"Submitter",
+                  "Value":"IP99323"
+               },
+               "Column3":{
+                  "Name":"Transaction Type",
+                  "Value":"BKJ"
+               },
+               "Column4":{
+                  "Name":"Type",
+                  "Value":"2"
+               },
+               "Column5":{
+                  "Name":"USD Amount",
+                  "Value":"1,700.00"
+               },
+               "Column6":{
+                  "Name":"Role(LocationCode)",
+                  "Value":"GRN"
+               },
+			   "Column7":{
+                  "Name":"Net Amount",
+                  "Value":"N/A"
+               },
+               "Column8":{
+                  "Name":"Batch Code",
+                  "Value":"N/A"
+               },
+               "Column9":{
+                  "Name":"Entry Code",
+                  "Value":"N/A"
+               },
+               "Column10":{
+                  "Name":"Price",
+                  "Value":""
+               },
+               "Column11":{
+                  "Name":"Quantity",
+                  "Value":"N/A"
+               },
+			   "Column12":{
+                  "Name":"Reference ID",
+                  "Value":"N/A"
+               },
+               "CreditDebitEntry":{
+                  "_isNull":"true"
+               },
+               "CreditDebitFlag":"False",
+               "CurrencySymbol":"U$",
+               "CurrentCount":"5",
+               "DetailHeader":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "DisabledActions":{
+                  "StringArray0":"APPR",
+                  "StringArray1":"REJT",
+                  "_attr0":"StringArray",
+                  "_isNull":"false"
+               },
+               "FinatStatusCD":"APPR",
+               "HasNextValue":"False",
+               "HasPreviousValue":"False",
+               "Header":"Ascendis SRFB Journal 522-9K286",
+               "ISOCurrency":"USD",
+               "IsBillionJournal":{
+                  "_isNull":"false"
+               },
+               "IsNew":"False",
+               "IsNote":"True",
+               "Level":"1",
+               "LockedFlag":{
+                  "_isNull":"false"
+               },
+               "LockedUserID":{
+                  "_isNull":"false"
+               },
+               "LockedUserName":{
+                  "_isNull":"false"
+               },
+			   "LogInfo":{
+                  "LogList":{
+                     "_attr0":"LogArray",
+                     "_isNull":"false"
+                  }
+               },
+               "MessageIdentifier":"MSRFBJRN",
+               "MessageName":"ASCSFB",
+               "ModifiedBy":"SYSTEM",
+               "ModifiedByUserName":{
+                  "_isNull":"false"
+               },
+               "ModifiedDate":"12/4/2019 6:57:57 AM",
+               "MsgSubject":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "OriginatingCredential":"V034QA14",
+               "ParentCaseID":"248887",
+               "PriceDate":"N/A",
+               "PriceType":"N/A",
+               "PriorityCode":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeCSS":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeDescription":{
+                  "_isNull":"false"
+               },
+               "RefID":"ASCSFB101445",
+               "RelatedRefID":{
+                  "_isNull":"false"
+               },
+               "RawMessage":"",
+               "SourceApplication":"ASCSFB",
+               "SourceTransactionID":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "Status":"OPEN",
+               "SubClientID":"034",
+               "TotalApprCount":"1",
+               "TotalAssignedCount":"1",
+               "TotalCount":"5",
+               "TotalPages":"1",
+               "TotalRequiredApprCount":"1",
+               "UsdAmount":"1700.00",
+               "UsdMarketValue":"N/A",
+               "UserName":"System",
+               "Version":"1"
+            },
+            {
+               "AssignTo":"V096UNI9",
+               "AssignToSpl":"System",
+               "AssignType":"SYS",
+               "CaseID":"250002",
+               "CaseIDs":"248887",
+               "CaseVersionNumber":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "CaseWorkFlowID":"107683",
+               "ClientNumber":{
+                  "_isNull":"false"
+               },
+               "ClosingPrice":"N/A",
+               "Column1":{
+                  "Name":"Quantity",
+                  "Value":"0.00"
+               },
+               "Column2":{
+                  "Name":"Submitter",
+                  "Value":"IP99323"
+               },
+               "Column3":{
+                  "Name":"Transaction Type",
+                  "Value":"BKJ"
+               },
+               "Column4":{
+                  "Name":"Type",
+                  "Value":"2"
+               },
+               "Column5":{
+                  "Name":"USD Amount",
+                  "Value":"1,700.00"
+               },
+               "Column6":{
+                  "Name":"Role(LocationCode)",
+                  "Value":"GRN"
+               },
+			   "Column7":{
+                  "Name":"Net Amount",
+                  "Value":"N/A"
+               },
+               "Column8":{
+                  "Name":"Batch Code",
+                  "Value":"N/A"
+               },
+               "Column9":{
+                  "Name":"Entry Code",
+                  "Value":"N/A"
+               },
+               "Column10":{
+                  "Name":"Price",
+                  "Value":""
+               },
+               "Column11":{
+                  "Name":"Quantity",
+                  "Value":"N/A"
+               },
+			   "Column12":{
+                  "Name":"Reference ID",
+                  "Value":"N/A"
+               },
+               "CreditDebitEntry":{
+                  "_isNull":"true"
+               },
+               "CreditDebitFlag":"False",
+               "CurrencySymbol":"U$",
+               "CurrentCount":"5",
+               "DetailHeader":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "DisabledActions":{
+                  "StringArray0":"APPR",
+                  "StringArray1":"REJT",
+                  "_attr0":"StringArray",
+                  "_isNull":"false"
+               },
+               "FinatStatusCD":"APPR",
+               "HasNextValue":"False",
+               "HasPreviousValue":"False",
+               "Header":"Ascendis SRFB Journal 522-9K286",
+               "ISOCurrency":"USD",
+               "IsBillionJournal":{
+                  "_isNull":"false"
+               },
+               "IsNew":"False",
+               "IsNote":"True",
+               "Level":"1",
+               "LockedFlag":{
+                  "_isNull":"false"
+               },
+               "LockedUserID":{
+                  "_isNull":"false"
+               },
+               "LockedUserName":{
+                  "_isNull":"false"
+               },
+			   "LogInfo":{
+                  "LogList":{
+                     "_attr0":"LogArray",
+                     "_isNull":"false"
+                  }
+               },
+               "MessageIdentifier":"MSRFBJRN",
+               "MessageName":"ASCSFB",
+               "ModifiedBy":"SYSTEM",
+               "ModifiedByUserName":{
+                  "_isNull":"false"
+               },
+               "ModifiedDate":"12/4/2019 6:57:57 AM",
+               "MsgSubject":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "OriginatingCredential":"V034QA14",
+               "ParentCaseID":"248887",
+               "PriceDate":"N/A",
+               "PriceType":"N/A",
+               "PriorityCode":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeCSS":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeDescription":{
+                  "_isNull":"false"
+               },
+               "RefID":"ASCSFB101445",
+               "RelatedRefID":{
+                  "_isNull":"false"
+               },
+               "RawMessage":"",
+               "SourceApplication":"ASCSFB",
+               "SourceTransactionID":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "Status":"REJT",
+               "SubClientID":"034",
+               "TotalApprCount":"1",
+               "TotalAssignedCount":"1",
+               "TotalCount":"5",
+               "TotalPages":"1",
+               "TotalRequiredApprCount":"1",
+               "UsdAmount":"1700.00",
+               "UsdMarketValue":"N/A",
+               "UserName":"System",
+               "Version":"1"
+            },
+            {
+               "AssignTo":"System",
+               "AssignToSpl":"System",
+               "AssignType":"SYS",
+               "CaseID":"250001",
+               "CaseIDs":"248887",
+               "CaseVersionNumber":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "CaseWorkFlowID":"107683",
+               "ClientNumber":{
+                  "_isNull":"false"
+               },
+               "ClosingPrice":"N/A",
+               "Column1":{
+                  "Name":"Quantity",
+                  "Value":"0.00"
+               },
+               "Column2":{
+                  "Name":"Submitter",
+                  "Value":"IP99323"
+               },
+               "Column3":{
+                  "Name":"Transaction Type",
+                  "Value":"BKJ"
+               },
+               "Column4":{
+                  "Name":"Type",
+                  "Value":"2"
+               },
+               "Column5":{
+                  "Name":"USD Amount",
+                  "Value":"1,700.00"
+               },
+               "Column6":{
+                  "Name":"Role(LocationCode)",
+                  "Value":"GRN"
+               },
+			   "Column7":{
+                  "Name":"Net Amount",
+                  "Value":"N/A"
+               },
+               "Column8":{
+                  "Name":"Batch Code",
+                  "Value":"N/A"
+               },
+               "Column9":{
+                  "Name":"Entry Code",
+                  "Value":"N/A"
+               },
+               "Column10":{
+                  "Name":"Price",
+                  "Value":""
+               },
+               "Column11":{
+                  "Name":"Quantity",
+                  "Value":"N/A"
+               },
+			   "Column12":{
+                  "Name":"Reference ID",
+                  "Value":"N/A"
+               },
+               "CreditDebitEntry":{
+                  "_isNull":"true"
+               },
+               "CreditDebitFlag":"False",
+               "CurrencySymbol":"U$",
+               "CurrentCount":"5",
+               "DetailHeader":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "DisabledActions":{
+                  "StringArray0":"APPR",
+                  "StringArray1":"REJT",
+                  "_attr0":"StringArray",
+                  "_isNull":"false"
+               },
+               "FinatStatusCD":"APPR",
+               "HasNextValue":"False",
+               "HasPreviousValue":"False",
+               "Header":"Ascendis SRFB Journal 522-9K286",
+               "ISOCurrency":"USD",
+               "IsBillionJournal":{
+                  "_isNull":"false"
+               },
+               "IsNew":"False",
+               "IsNote":"True",
+               "Level":"1",
+               "LockedFlag":{
+                  "_isNull":"false"
+               },
+               "LockedUserID":{
+                  "_isNull":"false"
+               },
+               "LockedUserName":{
+                  "_isNull":"false"
+               },
+			   "LogInfo":{
+                  "LogList":{
+                     "_attr0":"LogArray",
+                     "_isNull":"false"
+                  }
+               },
+               "MessageIdentifier":"MSRFBJRN",
+               "MessageName":"ASCSFB",
+               "ModifiedBy":"SYSTEM",
+               "ModifiedByUserName":{
+                  "_isNull":"false"
+               },
+               "ModifiedDate":"12/4/2019 6:57:57 AM",
+               "MsgSubject":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "OriginatingCredential":"V034QA14",
+               "ParentCaseID":"248887",
+               "PriceDate":"N/A",
+               "PriceType":"N/A",
+               "PriorityCode":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeCSS":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeDescription":{
+                  "_isNull":"false"
+               },
+               "RefID":"ASCSFB101445",
+               "RelatedRefID":{
+                  "_isNull":"false"
+               },
+               "RawMessage":"",
+               "SourceApplication":"ASCSFB",
+               "SourceTransactionID":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "Status":"APPR",
+               "SubClientID":"034",
+               "TotalApprCount":"1",
+               "TotalAssignedCount":"1",
+               "TotalCount":"5",
+               "TotalPages":"1",
+               "TotalRequiredApprCount":"1",
+               "UsdAmount":"1700.00",
+               "UsdMarketValue":"N/A",
+               "UserName":"System",
+               "Version":"1"
+            },
+            {
+               "AssignTo":"V096UNI9",
+               "AssignToSpl":"System",
+               "AssignType":"SYS",
+               "CaseID":"250000",
+               "CaseIDs":"250000",
+               "CaseVersionNumber":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "CaseWorkFlowID":"107683",
+               "ClientNumber":{
+                  "_isNull":"false"
+               },
+               "ClosingPrice":"N/A",
+               "Column1":{
+                  "Name":"Quantity",
+                  "Value":"0.00"
+               },
+               "Column2":{
+                  "Name":"Submitter",
+                  "Value":"IP99323"
+               },
+               "Column3":{
+                  "Name":"Transaction Type",
+                  "Value":"BKJ"
+               },
+               "Column4":{
+                  "Name":"Type",
+                  "Value":"2"
+               },
+               "Column5":{
+                  "Name":"USD Amount",
+                  "Value":"1,700.00"
+               },
+               "Column6":{
+                  "Name":"Role(LocationCode)",
+                  "Value":"GRN"
+               },
+			   "Column7":{
+                  "Name":"Net Amount",
+                  "Value":"N/A"
+               },
+               "Column8":{
+                  "Name":"Batch Code",
+                  "Value":"N/A"
+               },
+               "Column9":{
+                  "Name":"Entry Code",
+                  "Value":"N/A"
+               },
+               "Column10":{
+                  "Name":"Price",
+                  "Value":""
+               },
+               "Column11":{
+                  "Name":"Quantity",
+                  "Value":"N/A"
+               },
+			   "Column12":{
+                  "Name":"Reference ID",
+                  "Value":"N/A"
+               },
+               "CreditDebitEntry":{
+                  "_isNull":"true"
+               },
+               "CreditDebitFlag":"False",
+               "CurrencySymbol":"U$",
+               "CurrentCount":"5",
+               "DetailHeader":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "DisabledActions":{
+                  "StringArray0":"APPR",
+                  "StringArray1":"REJT",
+                  "_attr0":"StringArray",
+                  "_isNull":"false"
+               },
+               "FinatStatusCD":"APPR",
+               "HasNextValue":"False",
+               "HasPreviousValue":"False",
+               "Header":"Ascendis SRFB Journal 522-9K286",
+               "ISOCurrency":"USD",
+               "IsBillionJournal":{
+                  "_isNull":"false"
+               },
+               "IsNew":"False",
+               "IsNote":"True",
+               "Level":"1",
+               "LockedFlag":{
+                  "_isNull":"false"
+               },
+               "LockedUserID":{
+                  "_isNull":"false"
+               },
+               "LockedUserName":{
+                  "_isNull":"false"
+               },
+			   "LogInfo":{
+                  "LogList":{
+                     "_attr0":"LogArray",
+                     "_isNull":"false"
+                  }
+               },
+               "MessageIdentifier":"MSRFBJRN",
+               "MessageName":"ASCSFB",
+               "ModifiedBy":"SYSTEM",
+               "ModifiedByUserName":{
+                  "_isNull":"false"
+               },
+               "ModifiedDate":"12/4/2019 6:57:57 AM",
+               "MsgSubject":"Ascendis SRFB Journal CR 522-9K286(A)",
+               "OriginatingCredential":"V034QA14",
+               "ParentCaseID":"250000",
+               "PriceDate":"N/A",
+               "PriceType":"N/A",
+               "PriorityCode":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeCSS":{
+                  "_isNull":"false"
+               },
+               "PriorityCodeDescription":{
+                  "_isNull":"false"
+               },
+               "RefID":"ASCSFB101445",
+               "RelatedRefID":{
+                  "_isNull":"false"
+               },
+               "RawMessage":"",
+               "SourceApplication":"ASCSFB",
+               "SourceTransactionID":"Ascendis SRFB Journal CR  522-9K286(A)",
+               "Status":"OPEN",
+               "SubClientID":"034",
+               "TotalApprCount":"1",
+               "TotalAssignedCount":"1",
+               "TotalCount":"5",
+               "TotalPages":"1",
+               "TotalRequiredApprCount":"1",
+               "UsdAmount":"1700.00",
+               "UsdMarketValue":"N/A",
+               "UserName":"System",
+               "Version":"1"
+            }
+         ]
+      }
+   }
+}
